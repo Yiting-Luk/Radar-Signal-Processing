@@ -4,13 +4,7 @@ import matplotlib.pyplot as plt
 # ===============================
 # 主程序 - 调用分模块的雷达信号处理
 # ===============================
-from modules.configure_radar import configure_radar
-from modules.generate_fmcw_signal import generate_fmcw_signal
-from modules.simulate_reflection import simulate_target_reflection
-from modules.range_processing import range_processing
-from modules.velocity_processing import velocity_processing
-from modules.angle_processing import angle_processing
-from modules.generate_point_cloud import generate_point_cloud
+from modules import configure_radar, generate_fmcw_signal, simulate_target_reflection, range_processing, velocity_processing, angle_processing, generate_point_cloud
 
 if __name__ == "__main__":
     # 配置雷达参数
